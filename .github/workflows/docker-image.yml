@@ -41,4 +41,4 @@ jobs:
         push: true
         platforms: linux/arm64
         tags: |
-          blasshak/argocd-extension-installer:${{env.GITHUB_SHA}}
+          ghcr.io/craftcodedev/argocd-extension-installer:${{env.GITHUB_SHA}}
