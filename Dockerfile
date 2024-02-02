@@ -12,6 +12,6 @@ WORKDIR $HOME
 
 ADD install.sh .
 
-RUN chmod +x install.sh
+RUN chmod +x ./install.sh
 
 ENTRYPOINT ["./install.sh"]
